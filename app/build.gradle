@@ -23,6 +23,9 @@ dependencies {
 
     // This dependency is used by the application.
     implementation libs.guava
+
+    // Selber hinzugefügt
+    implementation group: 'com.google.zxing', name: 'javase', version: '3.5.3'
 }
 
 // Apply a specific Java toolchain to ease working on different environments.
